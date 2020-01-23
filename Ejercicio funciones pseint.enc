@@ -2,7 +2,7 @@ Algoritmo sin_titulo
 	Definir op como entero
 	
 	Repetir
-		Mostrar 	"Elija una de las siguientes opciones"
+		Mostrar 	"    Elija una de las siguientes opciones "
 		Mostrar  	"    1)           Secuencial              "
 		Mostrar  	"    2)      Condicional si entonces      "
 		Mostrar 	"    3)  Condicional si entonces anidado  "
@@ -77,9 +77,9 @@ Funcion Condicionifanidado()
 	Definir A como entero
 	Mostrar "Porfavor ingrese su nombre"
 	Leer Nombre
-	Mostrar "Porfavor ingrese su genero Hombre o Mujer"
+	Mostrar "Porfavor ingrese su genero H para Hombre o M para Mujer"
 	Leer Genero	
-	Si Genero = "Mujer" Entonces		
+	Si Genero = "M" Entonces		
 		Mostrar "Desea Usar Wc o Ducha?"
 		Mostrar "1)Wc"
 		Mostrar "2)Ducha"
@@ -92,10 +92,10 @@ Funcion Condicionifanidado()
 			Mostrar "Dirijase al los Duchas de Mujeres el valor del servicio es de $2500"
 			
 		SiNo
-			Mostrar "Opcion NO valida"
+			Mostrar "Opcion invalida"
 		FinSi
 	FinSi		
-	Si Genero = "Hombre" Entonces		
+	Si Genero = "H" Entonces		
 		Mostrar "Desea Usar Wc o Ducha?"
 		Mostrar "1)Wc"
 		Mostrar "2)Ducha"
